@@ -13,7 +13,7 @@
     {
       "name": "Sample 1",
       "setup": "",
-      "run": "python3 hash_substring.py",
+      "run": "python hash_substring.py",
       "input": "I\r\naba\r\nabacaba",
       "output": "0 4",
       "comparison": "exact",
@@ -23,7 +23,7 @@
     {
       "name": "Sample 2",
       "setup": "",
-      "run": "python3 hash_substring.py",
+      "run": "python hash_substring.py",
       "input": "I\r\nTest\r\ntestTesttesT",
       "output": "4",
       "comparison": "exact",
@@ -33,7 +33,7 @@
     {
       "name": "Sample 3",
       "setup": "",
-      "run": "python3 hash_substring.py",
+      "run": "python hash_substring.py",
       "input": "I\r\naaaaa\r\nbaaaaaaa",
       "output": "1 2 3",
       "comparison": "exact",
@@ -43,7 +43,7 @@
     {
       "name": "Test 06",
       "setup": "",
-      "run": "python3 hash_substring.py",
+      "run": "python hash_substring.py",
       "input": "F",
       "output": "19 118 178 241 296 361 417 472 ",
       "comparison": "exact",

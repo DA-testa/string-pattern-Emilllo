@@ -11,8 +11,8 @@ def read_input():
         
 
     elif "F" in fi or "f" in fi:
-        test_num = input("Choose test number (only 06 lol): ")
-        with open(f"tests/{test_num}", "r") as file:
+        #test_num = input("Choose test number (only 06 lol): ")
+        with open(f"tests/06", "r") as file:
             n = file.readline().rstrip()
             data = file.readline().rstrip()
             # print(f"N: ",n ,"data: ", data)
